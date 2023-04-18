@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input[type="number"] {
+	padding: 5px;
+	font-size: 16px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #2196f3;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+button:hover {
+	background-color: #0d8bf2;
+}
+
+#results {
+	margin-top: 20px;
+	text-align: center;
